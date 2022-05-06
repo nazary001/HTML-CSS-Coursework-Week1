@@ -1,22 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>My Blog</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>My resume</title>
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+
+  <div id=menu_div>
+    <nav class='menu'>
+      <label>About me</label>
+      <label>Skills</label>
+      <label>Contacts</label>
+      <label>My Blog</label>
+    </nav>
+  </div>
+
+  <div id="profile_div">
+    <div id=my_name_div>
+      <label class="name_class">Hello, My name is</label>
+      <label id='my_name'>Nazar Ivchenko</label>
+      <label class="name_class">A creative Freelancer, future Web Developer</label>
+    </div>
+    <img src="https://i.ibb.co/mRVbXyZ/IMG-20220504-202249-removebg-preview.png" alt="my_photo" border="0">
+  </div>
+
+  <div id="main_div">
+    <div id=img_div>
+      <img id='my_img' src="https://i.ibb.co/k8SB4jC/1643052506041.jpg" alt="My_photo" border="1">
+    </div>
+    <div id='text_main_div'>
+      <h1>About ME</h1>
+      <div id='label_div'>
+        <label id='mylabel'>Hello, my name is Nazar and i am 21 years old! I am from Ukraine! Recently, I have become
+          very
+          interested
+          in programming. At the moment I am actively interested in and studying this area. </label>
+      </div>
+      <div class='raiting_group'>
+        <div class='rait'>
+          <label>English</label>
+          <div class="rating-mini">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class='rait'>
+          <label>HTML</label>
+          <div class="rating-mini">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class='active'></span>
+            <span></span>
+          </div>
+        </div>
+        <div class='rait'>
+          <label>CSS</label>
+          <div class="rating-mini">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class='raiting_group'>
+        <div class='rait'>
+          <label>Java Script</label>
+          <div class="rating-mini">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+          </div>
+        </div>
+        <div class='rait'>
+          <label>NodeJS</label>
+          <div class="rating-mini">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class='rait'>
+          <label>React</label>
+          <div class="rating-mini">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id=main2_header>
+    <label>My Services</label>
+    <h1>What Can I Do</h1>
+  </div>
+  <div id='main2_div1'>
+    <div class='main2_group'>
+      <span><img src = 'https://cdn-icons.flaticon.com/png/512/4834/premium/4834996.png?token=exp=1651780005~hmac=5cbce0440edd1f0b20ffaa5774369a4c'></span>
+      <h2>Creative Design</h2>
+      <label>I create custom pages. I will offer many options for page design. We will find the right option for
+        everyone!</label>
+    </div>
+    <div class='main2_group'>
+      <span><img src = 'https://cdn-icons-png.flaticon.com/512/896/896405.png'></span>
+      <h2>Branding</h2>
+      <label>We will select a cool unique brand for you</label>
+    </div>
+    <div class='main2_group'>
+      <span><img src = 'https://cdn-icons.flaticon.com/png/512/3110/premium/3110718.png?token=exp=1651780005~hmac=649f2f1ba42ffeea79d59044d4d3b6ea'></span>
+      <h2>User Interface</h2>
+      <label>Let's create a user-friendly interface</label>
+    </div>
+  </div>
+  <div id=main2_div2>
+    <div class='main2_group'>
+      <span><img src = 'https://cdn-icons.flaticon.com/png/512/2973/premium/2973719.png?token=exp=1651780005~hmac=3ce9accbfb219c50bd8e439107d75c72'></span>
+      <h2>User Expierence</h2>
+      <label>We have created more than 1000 sites with different interfaces and features</label>
+    </div>
+    <div class='main2_group'>
+      <span><img src = 'https://cdn-icons-png.flaticon.com/512/1336/1336989.png'></span>
+      <h2>Clean Code</h2>
+      <label>Thanks to experience, we write clean code that is easy to read and edit in the future</label>
+    </div>
+    <div class='main2_group'>
+      <span><img src = 'https://cdn-icons-png.flaticon.com/512/7422/7422763.png'></span>
+      <h2>Fast Support</h2>
+      <label>You can contact us during business hours from 10:00 to 22:00. We answer within 1 minute</label>
+    </div>
+  </div>
+  <div id = 'footer'>
+    <h1>Contacts</h1>
+    <div id = 'contacts'>
+      <div class = 'contact_group'>
+        <img src = 'https://cdn-icons.flaticon.com/png/512/2040/premium/2040539.png?token=exp=1651782893~hmac=f351b42f832757149f6b849fc8df21a0'>
+        
+      </div>
+      <div class = 'contact_group'>
+        <img src = 'https://cdn-icons-png.flaticon.com/512/3820/3820331.png'>
+        
+      </div>
+      <div class = 'contact_group'>
+        <img src = 'https://cdn-icons-png.flaticon.com/512/1400/1400487.png'>
+        
+      </div>
+      <div class = 'contact_group'>
+        <img src = 'https://cdn-icons-png.flaticon.com/512/1400/1400477.png'>
+        
+      </div>
+
+    </div>
+  </div>
+</body>
+
 </html>

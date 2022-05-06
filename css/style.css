@@ -1,8 +1,230 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+}
+
+#menu_div {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: right;
+    padding: 1%;
+}
+
+.menu {
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+}
+
+.menu label {
+    padding: 0.7em;
+}
+
+#profile_div{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(63, 63, 63, 0.308));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my_name{
+    color: white;
+    font-size: 500%;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#profile_div img{
+    opacity: 75%;
+}
+
+#my_name_div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.name_class{
+    color:white;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
+}
+
+#my_img{
+    width: 80%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+#main_div{
+    display: flex;
+    justify-content: center;
+}
+
+#mylabel{
+    word-wrap: break-word;
+}
+
+#text_main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    max-width: 50%;
+    margin: 2em;
+}
+
+#label_div{
+    max-width: 80%;
+}
+
+.rating-mini {
+	display: inline-block;
+	font-size: 0;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span.active {
+	color: gold;
+}
+
+.rait{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 1em 0;
+}
+
+.raiting_group{
+    display: flex;
+    margin-left: 1em;
+}
+
+#img_div{
+    display: flex;
+    justify-content: right;
+    margin: 1em;
+}
+
+#main2_header{
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 130%;
+    padding: 2% 0 0 12%;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+#main2_header h1{
+    margin:0;
+    padding-bottom: 2%;
+}
+
+#main2_div1{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.6);
+    gap: 3%;
+}
+
+#main2_div2{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.6);
+    gap: 3%;
+    padding: 3% 0 3% 0;
+
+}
+
+.main2_group{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color:rgba(61, 61, 61, 0.404);
+    word-wrap: break-word;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#main2_div1 img{
+    width: 20%;
+}
+
+#main2_div1 span{
+    display: flex;
+    justify-content: center;
+}
+
+#main2_div2 img{
+    width: 20%;
+}
+
+#main2_div2 span{
+    display: flex;
+    justify-content: center;
+}
+
+#footer h1{
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_group img{
+    width: 30%;
+}
+
+.contact_group label{
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 120%;
+}
+.contact_group{
+    display: flex;
+    max-width: 20%;
+}
+
+#contacts{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
